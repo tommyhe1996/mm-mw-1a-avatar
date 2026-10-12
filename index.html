@@ -2,81 +2,53 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>My Superhero Me - Design My Own Life</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Page 1 - Design My Own Life</title>
+
+    <!-- Main stylesheet required by the assignment. -->
+    <link rel="stylesheet" href="styles.css">
+
+    <!-- Second stylesheet for extra credit. -->
+    <link rel="stylesheet" href="extra.css">
 </head>
 
 <body>
-    <!-- The same three-link navigation appears on every page. -->
-    <h4>
-        <a href="index.html">Home</a> |
-        <a href="my-work.html">My Creative Work</a> |
-        <a href="my-future.html">My Future</a>
-        <a href="design-principles.html">Design Principles</a>
-    </h4>
+    <header>
+        <h1>Design My Own Life</h1>
 
-    <img
-        src="https://www.berkeleycitycollege.edu/hubfs/BCC%20Images/logos/logo-berkeley-city-college-full-color.svg"
-        alt="Berkeley City College logo"
-        width="300"
-        height="100">
+        <nav aria-label="Main navigation">
+            <a href="index.html">Page 1: Home</a>
+            <a href="page2.html">Page 2: Creative Work</a>
+            <a href="page3.html">Page 3: My Future</a>
+        </nav>
+    </header>
 
-    <h1>My Superhero Me: Design My Own Life</h1>
-    <h2>Berkeley City College Lecture Series Presents Tommy Zhonghuang He</h2>
+    <main>
+        <section>
+            <h2 class="page-one-accent">My Life as a Creative Journey</h2>
 
-    <img
-        src="https://github.com/tommyhe1996.png"
-        alt="Profile picture of Tommy Zhonghuang He"
-        width="300"
-        height="300">
+            <!-- PNG is a web-safe image format. -->
+            <img
+                class="profile-image"
+                src="https://github.com/tommyhe1996.png"
+                alt="Profile image of Tommy Zhonghuang He"
+                width="320"
+                height="320">
 
-    <p>
-        Tommy Zhonghuang He wants to live in a world where<br>
-        creativity, neurodiversity, and authentic self-expression<br>
-        are welcomed.
-    </p>
+            <p>
+                I am Tommy Zhonghuang He, a future multimedia web designer and
+                artist. I want to combine technology, art, accessibility, and
+                authentic self-expression in my creative work.
+            </p>
 
-    <p>
-        As a <em>multimedia web designer and artist, designer,<br>
-        social influencer, blogger, and running enthusiast</em>,<br>
-        he has been spotlighted in international digital-art<br>
-        galleries, websites, video streams, podcasts, audio<br>
-        streams, and blogs.
-    </p>
+            <p class="page-one-accent">
+                The color of this paragraph is changed by the shared CSS file.
+            </p>
+        </section>
+    </main>
 
-    <p>
-        When he is not running, drawing, planning his daily life,<br>
-        or combining psychology and art, you can find Tommy<br>
-        designing his own artwork and editing videos to create<br>
-        neurodivergent-friendly, accessible multimedia experiences.
-    </p>
-
-    <p>
-        His latest project is Tommy and hits the internet<br>
-        in May 2028.
-    </p>
-
-    <p>
-        Discover, learn, explore, and find out how to design and<br>
-        build welcoming websites that help people express their<br>
-        authentic identities on his own terms at
-        <a href="https://github.com/tommyhe1996">Tommy's GitHub profile</a>.
-    </p>
-
-    <h3>File Path Examples</h3>
-
-    <!-- Relative path: only the filename because it is in the same folder. -->
-    <p><a href="my-work.html">Relative</a></p>
-
-    <!-- Absolute path: the complete published web address. -->
-    <p>
-        <a href="https://tommyhe1996.github.io/mm-mw-1a-avatar/index.html">
-            Absolute
-        </a>
-    </p>
-
-    <p>
-        RSVP BY September 21, 2026 &amp;<br>
-        hezhonghuang1996@gmail.com
-    </p>
+    <footer>
+        <p>MM/MW 1A CSS Homework — Tommy Zhonghuang He</p>
+    </footer>
 </body>
 </html>
