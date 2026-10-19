@@ -1,0 +1,5 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 480 260">
+  <rect width="480" height="260" fill="#f72585"/>
+  <g stroke="#4cc9f0" stroke-width="8"><path d="M30 35L440 220M25 220L450 30M240 10V250M10 130H470"/></g>
+  <text x="240" y="145" text-anchor="middle" font-family="Impact, sans-serif" font-size="50" fill="#ffffff">RESEARCH BOARD</text>
+</svg>

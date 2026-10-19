@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 480 260">
+  <rect width="480" height="260" fill="#240046"/>
+  <g fill="#ff9e00"><circle cx="70" cy="65" r="48"/><circle cx="180" cy="65" r="48"/><circle cx="290" cy="65" r="48"/><circle cx="400" cy="65" r="48"/></g>
+  <g fill="#00f5d4"><circle cx="70" cy="190" r="48"/><circle cx="180" cy="190" r="48"/><circle cx="290" cy="190" r="48"/><circle cx="400" cy="190" r="48"/></g>
+  <text x="240" y="145" text-anchor="middle" font-family="Impact, sans-serif" font-size="62" fill="#ffffff">MORE MORE MORE</text>
+</svg>

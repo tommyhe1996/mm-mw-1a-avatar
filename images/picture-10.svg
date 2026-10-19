@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 480 260">
+  <rect x="0" width="96" height="260" fill="#ff0000"/>
+  <rect x="96" width="96" height="260" fill="#00ff00"/>
+  <rect x="192" width="96" height="260" fill="#0000ff"/>
+  <rect x="288" width="96" height="260" fill="#ffff00"/>
+  <rect x="384" width="96" height="260" fill="#ff00ff"/>
+  <text x="240" y="145" text-anchor="middle" font-family="Impact, sans-serif" font-size="48" fill="#ffffff" stroke="#000" stroke-width="2">TOO MANY COLORS</text>
+</svg>

@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 480 260">
+  <rect width="480" height="260" fill="#ff4d6d"/>
+  <g stroke="#ffff00" stroke-width="20" fill="none">
+    <path d="M20 45H420l-45-30m45 30-45 30"/>
+    <path d="M460 120H60l45-30m-45 30 45 30"/>
+    <path d="M20 205H420l-45-30m45 30-45 30"/>
+  </g>
+  <text x="240" y="145" text-anchor="middle" font-family="monospace" font-size="28" fill="#0016ff">GO EVERYWHERE!</text>
+</svg>

@@ -1,0 +1,322 @@
+/*
+    MM/MW 1A - The Worst Website in the World
+    Design principle exaggerated: repetition
+*/
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    color: #110033;
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 1.5;
+    background-image:
+        repeating-linear-gradient(
+            45deg,
+            rgba(255, 255, 255, 0.22) 0,
+            rgba(255, 255, 255, 0.22) 12px,
+            rgba(0, 0, 0, 0.08) 12px,
+            rgba(0, 0, 0, 0.08) 24px
+        );
+}
+
+/* Three different page background colors. */
+.home-page {
+    background-color: #ff4fb8;
+}
+
+.page-one-page {
+    background-color: #56ff40;
+}
+
+.page-two-page {
+    background-color: #ffe83d;
+}
+
+header,
+main,
+footer {
+    width: min(1100px, 94%);
+    margin: 18px auto;
+}
+
+header,
+section,
+footer {
+    background-color: rgba(255, 255, 255, 0.88);
+}
+
+header,
+footer {
+    padding: 18px;
+    text-align: center;
+}
+
+h1 {
+    color: #7500b8;
+    font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+    font-size: clamp(2rem, 7vw, 5rem);
+    line-height: 0.92;
+    text-shadow: 4px 4px 0 #00ffff, -4px -4px 0 #ffef00;
+}
+
+h2:nth-of-type(odd) {
+    color: #ff006e;
+}
+
+section {
+    margin: 28px 0;
+    padding: 20px;
+}
+
+nav {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 10px;
+}
+
+nav a,
+.repetition-wall a {
+    padding: 12px 20px;
+    color: #ffffff;
+    background-color: #1724c9;
+    border: 5px dashed #ffef00;
+    font-weight: bold;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+nav a:nth-child(2n) {
+    color: #000000;
+    background-color: #ff6f00;
+}
+
+nav a:hover,
+nav a:focus,
+.repetition-wall a:hover,
+.repetition-wall a:focus {
+    color: #000000;
+    background-color: #00ffff;
+}
+
+.moving-banner {
+    position: relative;
+    color: #ffffff;
+    background-color: #000000;
+    font-weight: bold;
+    white-space: nowrap;
+    animation: slide-sideways 8s ease-in-out infinite alternate;
+}
+
+@keyframes slide-sideways {
+    from { transform: translateX(-4%); }
+    to { transform: translateX(4%); }
+}
+
+.picture-grid {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 9px;
+}
+
+.picture-grid img {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+.crooked-grid img:nth-child(odd) {
+    transform: rotate(-3deg);
+}
+
+.crooked-grid img:nth-child(even) {
+    transform: rotate(3deg);
+}
+
+/* Box Model: two clearly labeled border instances. */
+.border-one {
+    border: 12px ridge #00ffff;
+}
+
+.border-two {
+    border: 14px double #ff00ff;
+}
+
+/* Box Model: three clearly labeled padding instances. */
+.padding-one {
+    padding: 30px 12px 45px 50px;
+}
+
+.padding-two {
+    padding: 55px 25px 20px 80px;
+}
+
+.padding-three {
+    padding: 18px 70px 42px 25px;
+}
+
+/* Box Model: two clearly labeled margin instances. */
+.margin-one {
+    margin: 36px 8px 17px 45px;
+}
+
+.margin-two {
+    margin: 13px 55px 48px 4px;
+}
+
+/* Float property: two instances. */
+.float-left {
+    float: left;
+    width: 38%;
+    padding: 18px;
+    color: #ffffff;
+    background-color: #9900ff;
+    font-size: 1.3rem;
+}
+
+.float-right {
+    float: right;
+    width: 38%;
+    padding: 18px;
+    color: #000000;
+    background-color: #00ffff;
+    font-size: 1.3rem;
+}
+
+.clearfix::after {
+    display: block;
+    clear: both;
+    content: "";
+}
+
+.position-stage {
+    position: relative;
+    min-height: 330px;
+    overflow: hidden;
+}
+
+/* Relative positioning: three instances. */
+.relative-one {
+    position: relative;
+    top: 28px;
+    left: 8%;
+    width: 44%;
+    padding: 15px;
+    background-color: #ff7300;
+}
+
+.relative-two {
+    position: relative;
+    top: 75px;
+    left: 35%;
+    width: 48%;
+    padding: 15px;
+    background-color: #00ddaa;
+}
+
+.relative-three {
+    position: relative;
+    top: 20px;
+    left: 18%;
+    width: 66%;
+    padding: 20px;
+    color: #ffffff;
+    background-color: #7209b7;
+}
+
+/* Absolute positioning: two instances. */
+.absolute-one {
+    position: absolute;
+    top: 18px;
+    right: 5%;
+    padding: 15px;
+    color: #ffffff;
+    background-color: #dc143c;
+    transform: rotate(8deg);
+}
+
+.absolute-two {
+    position: absolute;
+    right: 20%;
+    bottom: 18px;
+    padding: 15px;
+    background-color: #f5ff00;
+    transform: rotate(-7deg);
+}
+
+.inline-chaos {
+    color: #ffffff;
+    background-color: #b000b5;
+    font-size: 1.2rem;
+}
+
+.inline-chaos:nth-child(even) {
+    color: #000000;
+    background-color: #00ffff;
+}
+
+.block-chaos,
+.block-message {
+    display: block;
+    padding: 12px;
+    text-align: center;
+}
+
+.block-chaos:first-of-type,
+.block-message:first-of-type {
+    color: #ffffff;
+    background-color: #d00000;
+}
+
+.block-chaos:last-of-type,
+.block-message:last-of-type {
+    color: #000000;
+    background-color: #00ffff;
+}
+
+.repetition-wall {
+    display: grid;
+    gap: 6px;
+    text-align: center;
+}
+
+.repetition-wall h2:nth-child(odd) {
+    font-family: Georgia, serif;
+    font-size: 2.2rem;
+}
+
+.repetition-wall h2:nth-child(even) {
+    font-family: "Courier New", monospace;
+    font-size: 3rem;
+}
+
+.research-grid img {
+    border-radius: 50%;
+}
+
+footer {
+    font-family: "Comic Sans MS", "Comic Sans", cursive;
+    font-size: 1.2rem;
+}
+
+@media (max-width: 650px) {
+    .picture-grid {
+        grid-template-columns: 1fr;
+    }
+
+    .float-left,
+    .float-right {
+        float: none;
+        width: 100%;
+        margin-bottom: 10px;
+    }
+}
+
+@media (prefers-reduced-motion: reduce) {
+    .moving-banner {
+        animation: none;
+    }
+}

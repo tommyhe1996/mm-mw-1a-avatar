@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 480 260">
+  <rect width="480" height="260" fill="#ff8c00"/>
+  <g fill="#ffff00" stroke="#b000b5" stroke-width="5">
+    <path d="M70 20l14 35 38 2-30 23 10 37-32-20-32 20 10-37-30-23 38-2z"/>
+    <path d="M410 140l14 35 38 2-30 23 10 37-32-20-32 20 10-37-30-23 38-2z"/>
+  </g>
+  <text x="240" y="105" text-anchor="middle" font-family="Impact, sans-serif" font-size="48" fill="#4200ff">BEST PAGE</text>
+  <text x="240" y="170" text-anchor="middle" font-family="serif" font-size="62" fill="#ffffff">EVER!!!</text>
+</svg>

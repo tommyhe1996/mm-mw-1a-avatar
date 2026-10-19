@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 480 260">
+  <rect width="480" height="260" fill="#6aff00"/>
+  <path d="M0 30H480M0 80H480M0 130H480M0 180H480M0 230H480" stroke="#9f00ff" stroke-width="18"/>
+  <text x="240" y="105" text-anchor="middle" font-family="serif" font-size="38" fill="#ffffff">DESIGN EVERYTHING</text>
+  <text x="240" y="170" text-anchor="middle" font-family="Impact, sans-serif" font-size="64" fill="#ff7b00">NOW!</text>
+</svg>

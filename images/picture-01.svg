@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 480 260">
+  <rect width="480" height="260" fill="#ffeb00"/>
+  <circle cx="70" cy="55" r="48" fill="#ff006e"/>
+  <circle cx="415" cy="205" r="55" fill="#00d9ff"/>
+  <text x="240" y="115" text-anchor="middle" font-family="Impact, sans-serif" font-size="52" fill="#351070">CLICK HERE</text>
+  <text x="240" y="180" text-anchor="middle" font-family="monospace" font-size="36" fill="#e00000">AGAIN!!!</text>
+</svg>

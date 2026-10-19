@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 480 260">
+  <rect width="480" height="260" fill="#00f5d4"/>
+  <rect x="15" y="15" width="450" height="40" fill="#ff006e"/>
+  <rect x="15" y="70" width="90" height="170" fill="#8338ec"/>
+  <rect x="120" y="70" width="210" height="75" fill="#ffbe0b"/>
+  <rect x="345" y="70" width="120" height="170" fill="#3a86ff"/>
+  <rect x="120" y="160" width="210" height="80" fill="#fb5607"/>
+  <text x="240" y="45" text-anchor="middle" font-family="monospace" font-size="25" fill="#fff">CONFUSING LAYOUT</text>
+  <text x="225" y="120" text-anchor="middle" font-family="serif" font-size="28" fill="#000">WHERE DO I LOOK?</text>
+</svg>
