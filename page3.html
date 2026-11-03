@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Discovery | Designing My Future with HTML5</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <div class="site-shell">
+        <header class="site-header" role="banner">
+            <p class="eyebrow">Tommy Zhonghuang He · MM/MW 1A</p>
+            <h1>CSS Layout Discovery</h1>
+            <p class="header-intro">Solving the class riddle and reflecting on the HTML5 experience.</p>
+
+            <nav class="header-nav" aria-label="Primary navigation">
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="page2.html">Creative Path</a></li>
+                    <li><a class="current" href="page3.html" aria-current="page">CSS Discovery</a></li>
+                </ul>
+            </nav>
+        </header>
+
+        <div class="page-layout">
+            <main>
+                <article>
+                    <h2>The “Butter Substitute” Riddle</h2>
+                    <p class="article-lead">
+                        The intended answer is the CSS <strong>margin</strong> property. The hint refers to margarine, a substitute for butter, because “margarine” sounds similar to “margin.”
+                    </p>
+
+                    <section>
+                        <h3>How Margin Organizes Elements</h3>
+                        <p>
+                            Margin creates space outside an element’s border. By changing the top, right, bottom, and left margins, a designer can separate content and control the relationship between page areas without using relative or absolute positioning. Modern CSS Grid and Flexbox can also organize larger layouts, but margin is the answer connected to the lecture’s riddle.
+                        </p>
+                        <div class="margin-demo">
+                            This demonstration box uses margin to create space around itself.
+                        </div>
+                    </section>
+
+                    <section>
+                        <h3>Assignment Reflection</h3>
+                        <p>
+                            I rate my experience learning HTML5 and connecting it to CSS as <strong>5 out of 5</strong>. I liked seeing how semantic elements and CSS work together because the HTML explains the meaning of the content while the CSS controls its appearance. The assignment could be easier to digest with one starter folder, a diagram showing which semantic elements belong inside other elements, and a numbered checklist for Homework I, Homework II, and extra credit.
+                        </p>
+                    </section>
+                </article>
+            </main>
+
+            <aside aria-labelledby="aside-title">
+                <h2 id="aside-title">Review Links</h2>
+                <p>The rounded buttons below satisfy the aside-navigation requirement.</p>
+
+                <nav class="aside-nav" aria-label="Aside navigation">
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="page2.html">Creative Path</a></li>
+                        <li><a class="current" href="page3.html" aria-current="page">CSS Discovery</a></li>
+                    </ul>
+                </nav>
+
+                <div class="answer-card">
+                    <span>Riddle answer</span>
+                    <strong>margin</strong>
+                </div>
+            </aside>
+        </div>
+
+        <footer>
+            <p>Designed by Tommy Zhonghuang He · MM/MW 1A · HTML5 Homework</p>
+        </footer>
+    </div>
+</body>
+</html>
