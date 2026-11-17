@@ -1,0 +1,227 @@
+/* ------------------------------
+   BASE DESKTOP STYLES
+------------------------------ */
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    color: #17324d;
+    background-color: #dcecf7;
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 1.6;
+}
+
+.page {
+    width: 1100px;
+    max-width: 92%;
+    margin: 30px auto;
+    background-color: white;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.15);
+}
+
+header {
+    padding: 50px 30px;
+    text-align: center;
+    color: white;
+    background-color: #155b8f;
+}
+
+header h1 {
+    margin: 5px 0;
+    font-size: 3rem;
+}
+
+.eyebrow {
+    text-transform: uppercase;
+    letter-spacing: 0.15em;
+}
+
+nav {
+    padding: 15px;
+    text-align: center;
+    background-color: #f28c28;
+}
+
+nav a {
+    display: inline-block;
+    margin: 5px;
+    padding: 8px 18px;
+    color: #17324d;
+    background-color: white;
+    border-radius: 20px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+main {
+    padding: 30px;
+}
+
+.introduction,
+aside {
+    margin-bottom: 25px;
+    padding: 25px;
+    background-color: #fff6e9;
+    border-left: 8px solid #f28c28;
+}
+
+.cards {
+    display: flex;
+    gap: 20px;
+    margin-bottom: 25px;
+}
+
+.card {
+    flex: 1;
+    min-width: 240px;
+    padding: 22px;
+    background-color: #e8f4fc;
+    border: 2px solid #155b8f;
+    border-radius: 12px;
+}
+
+.screen-status {
+    padding: 12px;
+    text-align: center;
+    color: white;
+    background-color: #155b8f;
+}
+
+footer {
+    padding: 20px;
+    text-align: center;
+    color: white;
+    background-color: #17324d;
+}
+
+
+/* -----------------------------------
+   MEDIA QUERY 1: 940PX AND SMALLER
+----------------------------------- */
+
+@media screen and (max-width: 940px) {
+
+    .page {
+        max-width: 95%;
+        margin: 15px auto;
+    }
+
+    header h1 {
+        font-size: 2.4rem;
+    }
+
+    .cards {
+        flex-wrap: wrap;
+    }
+
+    .card {
+        flex: 1 1 45%;
+    }
+
+    .screen-status::after {
+        content: " — 940px layout";
+    }
+}
+
+
+/* -----------------------------------
+   MEDIA QUERY 2: BETWEEN 400–600PX
+----------------------------------- */
+
+@media screen and (min-width: 400px) and (max-width: 600px) {
+
+    body {
+        background-color: #fff0dc;
+    }
+
+    header {
+        padding: 30px 18px;
+    }
+
+    header h1 {
+        font-size: 2rem;
+    }
+
+    nav a {
+        display: block;
+        margin: 8px auto;
+        max-width: 220px;
+    }
+
+    main {
+        padding: 15px;
+    }
+
+    .cards {
+        display: block;
+    }
+
+    .card {
+        width: 100%;
+        margin-bottom: 15px;
+    }
+
+    .screen-status::after {
+        content: " — 400px to 600px layout";
+    }
+}
+
+
+/* -----------------------------------
+   MEDIA QUERY 3: PRINT
+----------------------------------- */
+
+@media print {
+
+    body,
+    .page {
+        width: 100%;
+        max-width: none;
+        margin: 0;
+        color: black;
+        background: white;
+        box-shadow: none;
+        font-family: Georgia, "Times New Roman", serif;
+    }
+
+    header {
+        padding: 10px 0;
+        color: black;
+        background: white;
+        border-bottom: 2px solid black;
+    }
+
+    nav,
+    .screen-status,
+    footer {
+        display: none;
+    }
+
+    main {
+        padding: 0;
+    }
+
+    .cards {
+        display: block;
+    }
+
+    .card,
+    .introduction,
+    aside {
+        margin: 15px 0;
+        padding: 10px;
+        color: black;
+        background: white;
+        border: 1px solid black;
+        box-shadow: none;
+        break-inside: avoid;
+    }
+
+    a {
+        color: black;
+        text-decoration: none;
+    }
+}
